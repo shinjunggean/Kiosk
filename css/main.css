@@ -88,6 +88,15 @@ body {
     border: 5px solid rgb(255, 230, 196);
 }
 
+/*주문화면 버튼*/
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.btn:active{
+    transform: scale(0.9);
+}
+
 /*꼬리말*/
 .end{
     width: 100%;
