@@ -97,6 +97,27 @@ body {
     transform: scale(0.9);
 }
 
+/*부재시 뜨는 알림창*/
+.message{
+    padding-top: 30px;
+    display: none;
+}
+
+.message .alarm{
+    width: 60%;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: aliceblue;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.message .alarm h2{
+    font-size: 30px;
+}
+
 /*꼬리말*/
 .end{
     width: 100%;
